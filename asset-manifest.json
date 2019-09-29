@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/hooked-on-react-quizz/static/css/main.b100e6da.chunk.css",
+    "main.js": "/hooked-on-react-quizz/static/js/main.10a1585f.chunk.js",
+    "main.js.map": "/hooked-on-react-quizz/static/js/main.10a1585f.chunk.js.map",
+    "runtime-main.js": "/hooked-on-react-quizz/static/js/runtime-main.e2cc8274.js",
+    "runtime-main.js.map": "/hooked-on-react-quizz/static/js/runtime-main.e2cc8274.js.map",
+    "static/js/2.00ba8410.chunk.js": "/hooked-on-react-quizz/static/js/2.00ba8410.chunk.js",
+    "static/js/2.00ba8410.chunk.js.map": "/hooked-on-react-quizz/static/js/2.00ba8410.chunk.js.map",
+    "index.html": "/hooked-on-react-quizz/index.html",
+    "precache-manifest.45977a3e1eb8d8bfe8082fba18dfaf5d.js": "/hooked-on-react-quizz/precache-manifest.45977a3e1eb8d8bfe8082fba18dfaf5d.js",
+    "service-worker.js": "/hooked-on-react-quizz/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/hooked-on-react-quizz/static/css/main.b100e6da.chunk.css.map",
+    "static/media/logo.svg": "/hooked-on-react-quizz/static/media/logo.25bf045c.svg"
+  }
+}
