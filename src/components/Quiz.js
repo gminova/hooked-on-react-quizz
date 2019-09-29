@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Data from "../model/data";
 
-const Quiz = () => {
-  return <h1>Quizz page</h1>;
+const Quiz = ({ setPage }) => {
+  return <div>Quizz page</div>;
 };
 
 export default Quiz;
