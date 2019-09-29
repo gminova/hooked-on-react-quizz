@@ -1,10 +1,13 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
+//components
+import WelcomePage from "./components/WelcomePage";
 
 function App() {
   return (
-    <div className="App">
-    </div>
+    <>
+      <WelcomePage />
+    </>
   );
 }
 
