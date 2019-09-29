@@ -10,7 +10,9 @@ function App() {
   const [score, setScore] = useState("0");
   return (
     <>
-      {page === "WelcomePage" && <WelcomePage setPage={setPage} />}
+      {page === "WelcomePage" && (
+        <WelcomePage setPage={setPage} score={score} setScore={setScore} />
+      )}
       {page === "Quiz" && (
         <Quiz setPage={setPage} score={score} setScore={setScore} />
       )}

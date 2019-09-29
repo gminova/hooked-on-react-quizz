@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 
-const WelcomePage = ({ setPage }) => {
+const WelcomePage = ({ setPage, score, setScore }) => {
   const [username, setUsername] = useState("guest");
 
   const updateUsername = event => setUsername(event.target.value);
-  useEffect(() => {}, [username]);
+  //   useEffect(() => {}, [username]);
+  useEffect(() => {
+    setScore(0);
+  }, []);
   return (
     <>
       <label htmlFor="username">
