@@ -1,2 +1,0 @@
-(window["webpackJsonphooked-on-react-quizz"]=window["webpackJsonphooked-on-react-quizz"]||[]).push([[0],[,,,function(n,e,o){n.exports=o(10)},,,,,function(n,e,o){},function(n,e,o){},function(n,e,o){"use strict";o.r(e);var t=o(0),c=o.n(t),r=o(2),a=o.n(r);o(8),o(9);var u=function(){return c.a.createElement("div",{className:"App"})};a.a.render(c.a.createElement(u,null),document.getElementById("root"))}],[[3,1,2]]]);
-//# sourceMappingURL=main.2b7817f7.chunk.js.map
