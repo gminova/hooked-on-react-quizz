@@ -3,6 +3,7 @@ import "./App.css";
 //components
 import WelcomePage from "./components/WelcomePage";
 import Quiz from "./components/Quiz";
+import Score from "./components/Score";
 
 function App() {
   const [page, setPage] = useState("WelcomePage");
@@ -10,6 +11,7 @@ function App() {
     <>
       {page === "WelcomePage" && <WelcomePage setPage={setPage} />}
       {page === "Quiz" && <Quiz setPage={setPage} />}
+      {page === "Score" && <Score setPage={setPage} />}
     </>
   );
 }
