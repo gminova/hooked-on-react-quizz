@@ -3,13 +3,16 @@ const Data = [
     question: "Do you like React?",
     answers: [
       {
-        "not at all": false
+        text: "not at all",
+        value: false
       },
       {
-        "a bit": false
+        text: "a bit",
+        value: false
       },
       {
-        "hell, yeah": true
+        text: "hell, yeah",
+        value: true
       }
     ]
   },
@@ -17,13 +20,16 @@ const Data = [
     question: "Do you like Angular?",
     answers: [
       {
-        "not at all": true
+        text: "not at all",
+        value: true
       },
       {
-        "a bit": false
+        text: "a bit",
+        value: false
       },
       {
-        "hell, yeah": false
+        text: "hell, yeah",
+        value: false
       }
     ]
   }
