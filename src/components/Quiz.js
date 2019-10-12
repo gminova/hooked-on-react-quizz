@@ -7,11 +7,14 @@ const Quiz = ({ setPage, score, setScore }) => {
   const [answer, setAnswer] = useState(false);
   console.log({ question });
 
+  const handleQuestion = e => {
+    console.log(answer);
+    return answer === true ? setCount(count + 1) : count;
+  };
+
   useEffect(() => {
-    const handleQuestion = () => {
-      return answer === true ? setCount(count + 1) : count;
-    };
-  }, [answer]);
+    setQuestion(Data[count])
+  }, [count]);
 
   return (
     <div>
@@ -26,7 +29,7 @@ const Quiz = ({ setPage, score, setScore }) => {
               key={i}
               id={a.text}
               name="answer"
-              onChange={e => setAnswer(e.target.value)}
+              onChange={e => setAnswer(a.isCorrect)}
             />
             <label id={a.text} value={a.text} key={a.text}>
               {a.text}
@@ -34,7 +37,7 @@ const Quiz = ({ setPage, score, setScore }) => {
           </div>
         ))}
       </>
-      <button onClick={() => setScore(Number(score) + 1)}>Score +1!</button>
+      <button onClick={handleQuestion}>Score +1!</button>
       <button onClick={() => setPage("Score")}>Finish</button>
     </div>
   );
