@@ -9,37 +9,47 @@ const Quiz = ({ setPage, score, setScore }) => {
 
   const handleQuestion = e => {
     console.log(answer);
-    return answer === true ? setCount(count + 1) : count;
+    if (answer === true) {
+      setCount(count + 1);
+      setScore(score + 1);
+    }
   };
 
   useEffect(() => {
-    setQuestion(Data[count])
+    debugger;
+    if (count >= Data.length) {
+      setPage("Score");
+    } else {
+      setQuestion(Data[count]);
+    }
   }, [count]);
 
   return (
-    <div>
-      <h1>Quizz page</h1>
-      <>
-        <p>{Data[count].question}</p>
-        {question.answers.map((a, i) => (
-          <div>
-            <input
-              type="radio"
-              value={a.text}
-              key={i}
-              id={a.text}
-              name="answer"
-              onChange={e => setAnswer(a.isCorrect)}
-            />
-            <label id={a.text} value={a.text} key={a.text}>
-              {a.text}
-            </label>
-          </div>
-        ))}
-      </>
-      <button onClick={handleQuestion}>Score +1!</button>
-      <button onClick={() => setPage("Score")}>Finish</button>
-    </div>
+    (Data[count] && (
+      <div>
+        <h1>Quizz page</h1>
+        <>
+          <p>{Data[count].question}</p>
+          {question.answers.map((a, i) => (
+            <div>
+              <input
+                type="radio"
+                value={a.text}
+                key={i}
+                id={a.text}
+                name="answer"
+                onChange={e => setAnswer(a.isCorrect)}
+              />
+              <label id={a.text} value={a.text} key={a.text}>
+                {a.text}
+              </label>
+            </div>
+          ))}
+        </>
+        <button onClick={handleQuestion}>Score +1!</button>
+        <button onClick={() => setPage("Score")}>Finish</button>
+      </div>
+    )) || <div>error</div>
   );
 };
 
