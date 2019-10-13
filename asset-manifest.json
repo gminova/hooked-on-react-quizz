@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/hooked-on-react-quizz/static/css/main.cfda8877.chunk.css",
-    "main.js": "/hooked-on-react-quizz/static/js/main.e0ccea4c.chunk.js",
-    "main.js.map": "/hooked-on-react-quizz/static/js/main.e0ccea4c.chunk.js.map",
+    "main.css": "/hooked-on-react-quizz/static/css/main.a2a7298c.chunk.css",
+    "main.js": "/hooked-on-react-quizz/static/js/main.d7198939.chunk.js",
+    "main.js.map": "/hooked-on-react-quizz/static/js/main.d7198939.chunk.js.map",
     "runtime-main.js": "/hooked-on-react-quizz/static/js/runtime-main.e2cc8274.js",
     "runtime-main.js.map": "/hooked-on-react-quizz/static/js/runtime-main.e2cc8274.js.map",
     "static/js/2.7934ce2b.chunk.js": "/hooked-on-react-quizz/static/js/2.7934ce2b.chunk.js",
     "static/js/2.7934ce2b.chunk.js.map": "/hooked-on-react-quizz/static/js/2.7934ce2b.chunk.js.map",
     "index.html": "/hooked-on-react-quizz/index.html",
-    "precache-manifest.b8b257c4bdc1f85a361a4414bcf8dddc.js": "/hooked-on-react-quizz/precache-manifest.b8b257c4bdc1f85a361a4414bcf8dddc.js",
+    "precache-manifest.c1d29c049323b7ae6ead60fc375ba4c2.js": "/hooked-on-react-quizz/precache-manifest.c1d29c049323b7ae6ead60fc375ba4c2.js",
     "service-worker.js": "/hooked-on-react-quizz/service-worker.js",
-    "static/css/main.cfda8877.chunk.css.map": "/hooked-on-react-quizz/static/css/main.cfda8877.chunk.css.map"
+    "static/css/main.a2a7298c.chunk.css.map": "/hooked-on-react-quizz/static/css/main.a2a7298c.chunk.css.map"
   }
 }
