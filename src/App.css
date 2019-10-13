@@ -2,8 +2,26 @@ html {
     display: flex;
     flex-direction: column;
     align-content: center;
-    align-items: center;
     text-align: center;
+    background-color: #282828;
+    color: whitesmoke;
+    padding: 150px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1 {
+    color: goldenrod;
+    align-items: center;
+}
+h2 {
+    text-transform: uppercase;
+    color: greenyellow;
+}
+
+input {
+    border-radius: 15px;
+    padding-left: 10px;
+    margin: 10px 10px;
 }
 
 button {
@@ -31,3 +49,5 @@ button:active {
 	position:relative;
 	top:1px;
 }
+
+

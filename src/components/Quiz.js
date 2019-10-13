@@ -28,11 +28,11 @@ const Quiz = ({ setPage, score, setScore }) => {
     (Data[count] && (
       <div>
         <h1>Quizz page</h1>
-        <h2>You must select the correct answer to proceed to the next question</h2>
+        <h3>You must select the correct answer to proceed to the next question</h3>
         <>
-          <p>{Data[count].question}</p>
+          <h2>{Data[count].question}</h2>
           {question.answers.map((a, i) => (
-            <div>
+            <div className="container">
               <input
                 type="radio"
                 value={a.text}

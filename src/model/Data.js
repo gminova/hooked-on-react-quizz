@@ -1,6 +1,6 @@
 const Data = [
   {
-    question: "What does Raect Strict Mode do?",
+    question: "What does React Strict Mode do?",
     answers: [
       {
         text: "It activates additional checks and warnings for its descendants.",
