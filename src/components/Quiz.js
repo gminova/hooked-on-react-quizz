@@ -11,7 +11,7 @@ const Quiz = ({ setPage, score, setScore }) => {
       setCount(count + 1);
       setScore(score + 1);
     } else {
-      alert("That's incorrect. Try again!")
+      alert("That's incorrect. Try again!");
     }
   };
 
@@ -36,7 +36,7 @@ const Quiz = ({ setPage, score, setScore }) => {
         <>
           <h2>{Data[count].question}</h2>
           {question.answers.map((a, i) => (
-            <div className="container">
+            <div className="container" key={a.text}>
               <input
                 type="radio"
                 key={a.key}
@@ -45,7 +45,7 @@ const Quiz = ({ setPage, score, setScore }) => {
                 name="answer"
                 onChange={e => setAnswer(a.isCorrect)}
               />
-              <label id={a.text} value={a.text}>
+              <label value={a.text} id={a.text}>
                 {a.text}
               </label>
             </div>

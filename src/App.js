@@ -8,7 +8,7 @@ import Score from "./components/Score";
 function App() {
   const [page, setPage] = useState("WelcomePage");
   const [username, setUsername] = useState("guest");
-  const [score, setScore] = useState("0");
+  const [score, setScore] = useState(0);
 
   return (
     <>
