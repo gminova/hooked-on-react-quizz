@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8f1276135719988cb8f0a56d9654a445",
+    "revision": "49977073dccfde03c4ae983362aaba36",
     "url": "/hooked-on-react-quizz/index.html"
   },
   {
-    "revision": "1887bd83359f8cad5782",
+    "revision": "3cfda90e890fe8fb20f0",
     "url": "/hooked-on-react-quizz/static/css/main.cfda8877.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hooked-on-react-quizz/static/js/2.7934ce2b.chunk.js"
   },
   {
-    "revision": "1887bd83359f8cad5782",
-    "url": "/hooked-on-react-quizz/static/js/main.8f96bbe8.chunk.js"
+    "revision": "3cfda90e890fe8fb20f0",
+    "url": "/hooked-on-react-quizz/static/js/main.e0ccea4c.chunk.js"
   },
   {
     "revision": "0111898a62e7c0a2e410",
