@@ -28,6 +28,7 @@ const Quiz = ({ setPage, score, setScore }) => {
     (Data[count] && (
       <div>
         <h1>Quizz page</h1>
+        <h2>You must select the correct answer to proceed to the next question</h2>
         <>
           <p>{Data[count].question}</p>
           {question.answers.map((a, i) => (
@@ -46,7 +47,7 @@ const Quiz = ({ setPage, score, setScore }) => {
             </div>
           ))}
         </>
-        <button onClick={handleQuestion}>Score +1!</button>
+        <button onClick={handleQuestion}>Answer</button>
         <button onClick={() => setPage("Score")}>Finish</button>
       </div>
     )) || <div>error</div>

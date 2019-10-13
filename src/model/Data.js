@@ -1,18 +1,18 @@
 const Data = [
   {
-    question: "Do you like React?",
+    question: "What does Raect Strict Mode do?",
     answers: [
       {
-        text: "not at all",
-        isCorrect: false
-      },
-      {
-        text: "a bit",
-        isCorrect: false
-      },
-      {
-        text: "hell, yeah",
+        text: "It activates additional checks and warnings for its descendants.",
         isCorrect: true
+      },
+      {
+        text: "It eliminates some silent errors by changing them to throw errors.",
+        isCorrect: false
+      },
+      {
+        text: "It helps with maintaining backward compatibility.",
+        isCorrect: false
       }
     ]
   },
