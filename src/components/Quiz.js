@@ -39,7 +39,7 @@ const Quiz = ({ setPage, score, setScore }) => {
             <div className="container">
               <input
                 type="radio"
-                key={a.id}
+                key={a.key}
                 value={a.text}
                 id={a.text}
                 name="answer"
